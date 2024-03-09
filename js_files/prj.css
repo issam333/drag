@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color:#928cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inpt{
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.inpt input{
+    outline: none;
+    height: 20px;
+}
+.inpt button{
+    background-color: #928cff;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 10px;
+}
+.list .box{
+    padding-top: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    border-radius: 10px;
+    padding-bottom:5px ;
+}
+.list .box h2{
+    height: 35px;
+    
+}
+.list .box p{
+    height: 30px;
+    padding-top: 10px;
+    margin:5px 5px;
+    background-color: #928cff;
+    text-align: center;
+    cursor: move;
+    border-radius: 5px;
+    
+}
